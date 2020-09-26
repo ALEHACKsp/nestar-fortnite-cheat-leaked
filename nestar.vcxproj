@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{432CD352-DFE6-4AC6-B858-3F74D5CB161F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>example</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Nestar Fortnite</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <SpectreMitigation>false</SpectreMitigation>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\marmasm.props" />
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <TargetName>FortniteCheatSRCUpdateEveryUpdate</TargetName>
+    <IncludePath>C:\Users\liam_\Documents\detours;C:\Users\alex7\OneDrive\Skrivebord\Superior New\Superior;C:\Users\alex7\OneDrive\Skrivebord\Superior New\Superior\minhook;C:\Users\alex7\OneDrive\Skrivebord\Superior New\Superior\imgui;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\liam_\Documents\detours;C:\Users\alex7\OneDrive\Skrivebord\Superior New\Superior\imgui;C:\Users\alex7\OneDrive\Skrivebord\Superior New\Superior\minhook;C:\Users\alex7\Desktop\Superior New\Superior;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);C:\Users\Ticx\source\repos\l0st.dev FN\l0st.dev FN\imgui;C:\Users\Ticx\source\repos\l0st.dev FN\l0st.dev FN\minhook</IncludePath>
+    <LibraryPath>$(VC_LibraryPath_x86);$(WindowsSDK_LibraryPath_x86);$(NETFXKitsDir)Lib\um\x86;C:\Users\Ticx\source\repos\l0st.dev FN\l0st.dev FN\minhook</LibraryPath>
+    <TargetName>fn</TargetName>
+    <OutDir>..\x64\Release</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>.\imgui;.\minhook;$(VC_IncludePath);$(WindowsSDK_IncludePath);C:\Users\alex7\OneDrive\Skrivebord\Superior New\Superior\detours</IncludePath>
+    <LibraryPath>.\minhook;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(NETFXKitsDir)Lib\um\x64;C:\Users\alex7\OneDrive\Skrivebord\Superior New\Superior\detours</LibraryPath>
+    <TargetName>FortniteCheatSRCUpdateEveryUpdateVisual9999</TargetName>
+    <OutDir>.\x64\Release\Release</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;EXAMPLE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;EXAMPLE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;EXAMPLE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;EXAMPLE_EXPORTS;_WINDOWS;_USRDLL;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <IgnoreAllDefaultLibraries>
+      </IgnoreAllDefaultLibraries>
+      <AdditionalDependencies>libcmtd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_buffer.c" />
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_button.c" />
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_chart.c" />
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_color.c" />
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_color_picker.c" />
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_combo.c" />
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_context.c" />
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_contextual.c" />
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_draw.c" />
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_edit.c" />
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_font.c" />
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_group.c" />
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_image.c" />
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_input.c" />
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_layout.c" />
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_list_view.c" />
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_math.c" />
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_menu.c" />
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_page_element.c" />
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_panel.c" />
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_pool.c" />
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_popup.c" />
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_progress.c" />
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_property.c" />
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_scrollbar.c" />
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_selectable.c" />
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_slider.c" />
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_string.c" />
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_style.c" />
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_table.c" />
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_text.c" />
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_text_editor.c" />
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_toggle.c" />
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_tooltip.c" />
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_tree.c" />
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_utf8.c" />
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_util.c" />
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_vertex.c" />
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_widget.c" />
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_window.c" />
+    <ClCompile Include="DiscordHook\Discord.cpp" />
+    <ClCompile Include="dllmain.cPP" />
+    <ClCompile Include="hook.cpp" />
+    <ClCompile Include="imgui\imgui.cpp" />
+    <ClCompile Include="imgui\imgui_draw.cpp" />
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp" />
+    <ClCompile Include="imgui\imgui_xorstr.h" />
+    <ClCompile Include="sonar.cpp" />
+    <ClCompile Include="Source Files\Config\Config.cpp" />
+    <ClCompile Include="Source Files\Config\core.cpp" />
+    <ClCompile Include="Source Files\Config\nestar_fortnite.cpp" />
+    <ClCompile Include="Source Files\Config\offsets.cpp" />
+    <ClCompile Include="Source Files\Config\settings.cpp" />
+    <ClCompile Include="Source Files\Config\Util.cpp" />
+    <ClCompile Include="thread.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\nuklear.h" />
+    <ClInclude Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear.h" />
+    <ClInclude Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_internal.h" />
+    <ClInclude Include="DiscordHook\Discord.h" />
+    <ClInclude Include="Header Files\Config\Archivex.h" />
+    <ClInclude Include="Header Files\Config\Config.h" />
+    <ClInclude Include="Header Files\Config\core.h" />
+    <ClInclude Include="Header Files\includes.h" />
+    <ClInclude Include="Header Files\Config\menu.h" />
+    <ClInclude Include="Header Files\Config\offsets.h" />
+    <ClInclude Include="Header Files\Config\settings.h" />
+    <ClInclude Include="Header Files\Config\Structs.h" />
+    <ClInclude Include="Header Files\util.h" />
+    <ClInclude Include="Header Files\Config\xor.hpp" />
+    <ClInclude Include="imgui\imconfig.h" />
+    <ClInclude Include="imgui\imgui.h" />
+    <ClInclude Include="imgui\imgui_impl_dx11.h" />
+    <ClInclude Include="imgui\imgui_internal.h" />
+    <ClInclude Include="imgui\stb_rect_pack.h" />
+    <ClInclude Include="imgui\stb_textedit.h" />
+    <ClInclude Include="imgui\stb_truetype.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="spoofinternal.asm">
+      <FileType>Document</FileType>
+    </MASM>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\marmasm.targets" />
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+  </ImportGroup>
+</Project>

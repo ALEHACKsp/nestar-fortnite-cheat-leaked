@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="sonar.cpp">
+      <Filter>DLL STREAMER</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Config\Config.cpp">
+      <Filter>Config Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Config\core.cpp">
+      <Filter>Config Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cPP">
+      <Filter>Config Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordHook\Discord.cpp">
+      <Filter>Config Files</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_dx11.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_xorstr.h">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_buffer.c">
+      <Filter>Nuklear Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_button.c">
+      <Filter>Nuklear Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_chart.c">
+      <Filter>Nuklear Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_color.c">
+      <Filter>Nuklear Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_color_picker.c">
+      <Filter>Nuklear Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_combo.c">
+      <Filter>Nuklear Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_context.c">
+      <Filter>Nuklear Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_contextual.c">
+      <Filter>Nuklear Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_draw.c">
+      <Filter>Nuklear Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_edit.c">
+      <Filter>Nuklear Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_font.c">
+      <Filter>Nuklear Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_group.c">
+      <Filter>Nuklear Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_image.c">
+      <Filter>Nuklear Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_input.c">
+      <Filter>Nuklear Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_layout.c">
+      <Filter>Nuklear Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_list_view.c">
+      <Filter>Nuklear Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_math.c">
+      <Filter>Nuklear Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_menu.c">
+      <Filter>Nuklear Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_page_element.c">
+      <Filter>Nuklear Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_panel.c">
+      <Filter>Nuklear Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_pool.c">
+      <Filter>Nuklear Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_popup.c">
+      <Filter>Nuklear Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_progress.c">
+      <Filter>Nuklear Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_property.c">
+      <Filter>Nuklear Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_scrollbar.c">
+      <Filter>Nuklear Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_selectable.c">
+      <Filter>Nuklear Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_slider.c">
+      <Filter>Nuklear Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_string.c">
+      <Filter>Nuklear Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_style.c">
+      <Filter>Nuklear Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_table.c">
+      <Filter>Nuklear Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_text.c">
+      <Filter>Nuklear Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_text_editor.c">
+      <Filter>Nuklear Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_toggle.c">
+      <Filter>Nuklear Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_tooltip.c">
+      <Filter>Nuklear Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_tree.c">
+      <Filter>Nuklear Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_utf8.c">
+      <Filter>Nuklear Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_util.c">
+      <Filter>Nuklear Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_vertex.c">
+      <Filter>Nuklear Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_widget.c">
+      <Filter>Nuklear Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_window.c">
+      <Filter>Nuklear Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Config\settings.cpp">
+      <Filter>Config Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Config\offsets.cpp">
+      <Filter>Config Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Config\Util.cpp">
+      <Filter>Config Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Config\nestar_fortnite.cpp" />
+    <ClCompile Include="hook.cpp" />
+    <ClCompile Include="thread.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header Files\Config\xor.hpp" />
+    <ClInclude Include="Header Files\Config\Archivex.h">
+      <Filter>Config Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Config\Config.h">
+      <Filter>Config Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Config\core.h">
+      <Filter>Config Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Config\menu.h">
+      <Filter>Config Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordHook\Discord.h">
+      <Filter>Config Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\includes.h">
+      <Filter>Config Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx11.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear.h">
+      <Filter>Nuklear Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\nuklear.h">
+      <Filter>Nuklear Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sleepy-Hook.xyz-Cracked-src-master (1)\Sleepy-Hook.xyz-Cracked-src-master\SleepyHook-Cheat-Source-master (1)\SleepyHook-Cheat-Source-master\Sleepyhook V2.0\Nuklear\src\nuklear_internal.h">
+      <Filter>Nuklear Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_rect_pack.h">
+      <Filter>Config Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Config\settings.h">
+      <Filter>Config Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Config\offsets.h">
+      <Filter>Config Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_textedit.h">
+      <Filter>Config Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Config\Structs.h">
+      <Filter>Config Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\util.h">
+      <Filter>Config Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_truetype.h">
+      <Filter>Config Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="spoofinternal.asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="DLL STREAMER">
+      <UniqueIdentifier>{e0667572-718e-4ab9-8dd2-2653097c3aa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Config Files">
+      <UniqueIdentifier>{582e919b-077b-4d14-8866-6cd8adbf95ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IMGUI">
+      <UniqueIdentifier>{cbbfcd69-759b-4664-85a9-ab2b96ff7138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Nuklear Framework">
+      <UniqueIdentifier>{7164cbbd-6fa5-4b5f-b020-9238a216913c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
